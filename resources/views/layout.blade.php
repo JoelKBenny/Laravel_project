@@ -7,12 +7,7 @@
     @vite(['/resources/css/app.css'])
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <a href="{{route('home')}}">Home</a>
-            <a href="{{route('about')}}">About</a>
-        </nav>
-    </header>
-@yield("content")
+    @include('navbar')
+    @yield("content")
 </body>
 </html>

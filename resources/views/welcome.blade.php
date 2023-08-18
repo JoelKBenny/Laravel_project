@@ -2,7 +2,7 @@
 
 @section('title',"Home")
 @section('content')
-    <h1>hai</h1>
+    <h1>Home Page</h1>
     
     @if (request()->isMethod('get'))
 
